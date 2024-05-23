@@ -73,6 +73,7 @@ export function FormsOng() {
       console.log(error)
     } else {
       console.log("Data inserted successfully")
+      location.reload()
     }
   }
 
